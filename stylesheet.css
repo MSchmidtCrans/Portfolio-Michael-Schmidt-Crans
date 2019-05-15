@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    box-sizing: border-box;
+}
+
+.superContainer {
+    background-color: rgba(255,255,255,1);
+    width: 100%;
+    height: 100%;
+}
+
+.topTextDiv {
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.myfacePic {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.picDiv {
+    margin: auto;
+    text-align: center;
+}
+
+.belowPicText {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 200px;
+}
+
+.firstLineBpt {
+    position: relative;
+    margin-top: 10px;
+    left: -500vw;
+}
+
+.secondLineBpt {
+    position: relative;
+    right: -500vw;
+}
+
+.frontEndDiv {
+    margin-top: 5px;
+    background-color: rgba(56, 51, 51, 0.904);
+    color: white;
+    font-size: 40px;
+}
+
+.fullScreen {
+    height: 100vh;
+}
