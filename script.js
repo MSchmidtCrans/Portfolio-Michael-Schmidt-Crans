@@ -3,6 +3,5 @@ $(document).ready(function(){
       $(".picDiv").fadeIn(2000);
       $(".firstLineBpt").animate({left: "0.5vw"}, 2000);
       $(".secondLineBpt").animate({right: "0.5vw"}, 2000);
-      $(".codeAnimate").animate({'fontSize': "0.75em"}, 2600);
-      $(".codeAnimate").animate({'fontSize': "1em"}, 2750);    
+      $(".codeAnimate").animate({'fontSize': "0.75em"}, 2600);   
   });

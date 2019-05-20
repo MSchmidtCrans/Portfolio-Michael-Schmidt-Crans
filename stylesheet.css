@@ -67,7 +67,12 @@ h1 {
 
 .frontEndDiv h3{
     text-align: center; 
-    font-size: 35px;
-    padding: 10px;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.skillImg {
+    height: 70px;
+    width: 70px;
 }
 
