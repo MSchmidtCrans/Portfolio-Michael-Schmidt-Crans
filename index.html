@@ -15,8 +15,38 @@
     <title>Personal Portfolio Michael Schmidt Crans</title>
 </head>
 <body>
-    <div id="mainContainer" class="superContainer">
-        <div class="fullScreen topContainer">
+
+    <!--Use bootstrap light navbar with collapse button for smaller screens-->
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"Top>Intro</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#frontskills">Tech Skills</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soft Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>        
+                  </ul>
+                </div>  
+              </nav>
+
+
+<!--Set div containers for all sections-->
+<!--Start with main container-->
+    <div id="mainContainer" class=".container-fluid superContainer ">
+        <div class="fullScreen topContainer" id="Top">
             <div class="topTextDiv" style="display: none;">
                 <h1>Welcome to my portfolio</h1>
             </div>
@@ -26,12 +56,16 @@
             <div class="belowPicText">
                 <h2 class="firstLineBpt">Hi, I'm Michael and you've landed on my portfolio page.</h2>
                 <h2 class="secondLineBpt">I'm a <code class="codeAnimate">Junior Web Developer</code>..</h2>
-            </div>    
-            <div class="aboutTextDiv">
+            </div>   
+
+<!--About me container-->             
+            <div class="aboutTextDiv" div="aboutme">
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
         </div>
-        <div class="frontEndDiv">
+
+<!--Tech skills container-->
+        <div class="frontEndDiv" id="aboutme">
             <h3>These are my front-end skills:</h3>
             <p>-HTML and HTML5</p>
             <p>-CSS</p>
