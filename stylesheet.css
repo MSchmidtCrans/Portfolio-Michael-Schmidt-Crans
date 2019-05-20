@@ -6,17 +6,10 @@ body {
     box-sizing: border-box;
 }
 
-.superContainer {
-    width: 100%;
-    height: 100%;
-    background-image: url("bglight.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .topContainer {
     background-color: rgba(255, 255, 255, 0.85);
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .topTextDiv {
@@ -47,14 +40,20 @@ h1 {
 }
 
 .firstLineBpt {
-    .position: relative;
+    position: relative;
     margin-top: 10px;
     left: -500vw;
 }
 
 .secondLineBpt {
-    .position: relative;
+    position: relative;
     right: -500vw;
+}
+
+.aboutTextDiv {
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    width: 100%;
 }
 
 .frontEndDiv {
@@ -62,10 +61,6 @@ h1 {
     background-color: rgba(56, 51, 51, 0.8);
     color: white;
     font-size: 40px;
+    margin: 0px;
 }
 
-.aboutTextDiv {
-    padding: 5px;
-    margin: auto;
-    width: 80vw;
-}
