@@ -38,7 +38,7 @@ h1 {
 .belowPicText {
     text-align: center;
     font-family: 'Muli', sans-serif;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .firstLineBpt {
@@ -61,4 +61,10 @@ h1 {
 
 .fullScreen {
     height: 100vh;
+}
+
+.aboutTextDiv {
+    padding: 5px;
+    margin: auto;
+    width: 80vw;
 }
