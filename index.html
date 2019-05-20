@@ -17,7 +17,7 @@
 <body>
 
     <!--Use bootstrap light navbar with collapse button for smaller screens-->
-        <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,7 +44,7 @@
 
 <!--Set div containers for all sections-->
 <!--Start with main container-->
-    <div id="mainContainer" class="main">
+    <div id="mainContainer" class="main mt-5">
         <div class="topContainer" id="Top">
             <div class="topTextDiv" style="display: none;">
                 <h1>Welcome to my portfolio</h1>
@@ -56,23 +56,31 @@
                 <h2 class="firstLineBpt">Hi, I'm Michael and you've landed on my portfolio page.</h2>
                 <h2 class="secondLineBpt">I'm a <code class="codeAnimate">Junior Web Developer</code>..</h2>
             </div>   
-    </div>
+    
 <!--About me container-->             
-            <div class="aboutTextDiv" div="aboutme">
+            <div class="aboutTextDiv mb-5 mx-auto" div="aboutme">
                 <p><h2>ABOUT ME</h2></p></br>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
-        
+        </div>    
 
-<!--Tech skills container-->
+<!--Tech skills container with bootstrap grid-->
         <div class="frontEndDiv" id="aboutme">
             <h3>These are my front-end skills:</h3>
-            <p>-HTML and HTML5</p>
-            <p>-CSS</p>
-            <p>-SCSS</p>
-            <p>- Jquery</p>
-            <p>- Bootstrap</p>
-            <p>- Javascript</p>
+            <div class="row text-center">
+                <div class="col">
+                    <p>HTML and HTML5</p>
+                    <p>CSS</p>
+                </div>
+                <div class="col">
+                    <p>SCSS</p>
+                    <p>Jquery</p>
+                </div>
+                <div class="col">
+                    <p>Bootstrap</p>
+                    <p>Javascript</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

@@ -1,8 +1,8 @@
 $(document).ready(function(){
-      $(".topTextDiv").fadeIn(2000);
-      $(".picDiv").fadeIn(3000);
-      $(".firstLineBpt").animate({left: "0.5vw"}, 3000);
-      $(".secondLineBpt").animate({right: "0.5vw"}, 3000);
-      $(".codeAnimate").animate({'fontSize': "0.75em"}, 3600);
-      $(".codeAnimate").animate({'fontSize': "1em"}, 3750);    
+      $(".topTextDiv").fadeIn(1000);
+      $(".picDiv").fadeIn(2000);
+      $(".firstLineBpt").animate({left: "0.5vw"}, 2000);
+      $(".secondLineBpt").animate({right: "0.5vw"}, 2000);
+      $(".codeAnimate").animate({'fontSize': "0.75em"}, 2600);
+      $(".codeAnimate").animate({'fontSize': "1em"}, 2750);    
   });
